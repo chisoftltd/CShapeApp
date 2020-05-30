@@ -4,7 +4,7 @@ namespace OPPApp
 {
     internal class Animal
     {
-        public void animalSound()
+        public virtual void animalSound()
         {
             Console.WriteLine("The animal makes a sound");
         }
